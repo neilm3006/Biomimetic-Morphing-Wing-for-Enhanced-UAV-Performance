@@ -75,5 +75,3 @@ This project aims to contribute toward **next-generation UAV design**, where **a
 
 ---
 
-## 📁 Folder Structure
-
