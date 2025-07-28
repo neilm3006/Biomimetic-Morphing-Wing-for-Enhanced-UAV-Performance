@@ -1,77 +1,90 @@
 # 🦅 Morphing Wing Prototype — Bioinspired Adaptive UAV Wing Design
 
-This project explores the design, prototyping, and refinement of a **morphing UAV wing** inspired by **biological systems and aerodynamic optimization principles**. The wing was designed to perform two key types of morphing:
+This project explores the design, prototyping, and refinement of a morphing UAV wing inspired by biological systems and aerodynamic optimization principles. The wing is designed to perform two key types of morphing:
 
-- **Flap Morphing (Up/Down)**  
+- **Flap Morphing (Up/Down)**
 - **Variable Aerofoil Thickness Morphing**
 
-Both were implemented using a **servo-driven rack and pinion mechanism**, allowing dynamic adaptation of the wing shape during flight simulation scenarios. Morphing wings offer major advantages over traditional fixed-wing designs, such as:
+Both mechanisms are implemented using a **servo-driven rack and pinion system**, allowing dynamic adaptation of the wing shape during simulated flight conditions.
 
-- Improved **lift-to-drag ratio** under changing flight conditions  
-- Enhanced **fuel efficiency** during cruise  
-- Greater **maneuverability and stall delay**  
+### 🌟 Why Morphing Wings?
 
-Initial prototyping was done using **TPU 95A filament** via 3D printing, chosen for its flexibility and elastic properties that allow smooth deformation. However, this version revealed two major insights:
+Morphing wings offer substantial advantages over conventional fixed-wing designs, such as:
 
-1. **Structural Weakness** — Fully TPU-printed wings lacked stiffness and could not sustain aerodynamic loads.  
-2. **Low ROI on Thickness Morphing** — The variable thickness mechanism added mechanical complexity with minimal aerodynamic gain.
+- ✅ Improved lift-to-drag ratio under changing flight conditions  
+- ✅ Enhanced fuel efficiency during cruise  
+- ✅ Greater maneuverability and delayed stall characteristics  
+
+---
+
+## 🧪 Initial Prototype
+
+The first prototype was 3D printed using **TPU 95A** filament due to its flexibility and elastic properties that allow smooth deformation. Key insights from this version:
+
+- ❌ **Structural Weakness**: The fully-TPU construction lacked the rigidity required to withstand aerodynamic loads.
+- ❌ **Low ROI on Thickness Morphing**: The complexity of the variable thickness mechanism did not yield significant aerodynamic benefit.
 
 ---
 
 ## 🔬 Bioinspired Redesign: From Nature to Wing
 
-While researching alternative aerodynamic enhancements, the project pivoted towards **biomimicry**. The redesigned prototype includes:
+To improve performance, the design took inspiration from natural aerodynamic features:
 
 ### 🐋 Leading Edge Tubercles  
-Inspired by the **humpback whale**, these "bumps" on the wing's leading edge disrupt airflow to delay stall and maintain lift at higher angles of attack. Benefits observed in research include:
+Inspired by the **humpback whale**, these leading-edge bumps disrupt airflow to reduce stall and increase lift. According to research:
 
-- **+8% increase in lift**  
-- **+40% increase in stall angle**  
-- **−32% drag reduction** in post-stall conditions  
+- **+8%** lift increase  
+- **+40%** increase in stall angle  
+- **−32%** drag in post-stall  
 
 ### 🏌️‍♂️ Golf Ball Dimples  
-The wing surface was textured with **micro-dimples**, mimicking the boundary layer control effect of a golf ball. These dimples:
+Inspired by golf ball aerodynamics, micro-dimples were added to the wing surface to create a turbulent boundary layer that adheres longer:
 
-- Create a **turbulent boundary layer** that stays attached longer  
-- **Reduce pressure drag by 2–4%**  
-- Improve aerodynamic efficiency in transitional flight regimes  
+- **2–4%** pressure drag reduction  
+- Improved L/D ratio in transitional flow conditions  
 
 ---
 
-## 🧪 Material Redesign: Dual-Material 3D Print Strategy
+## 🧱 Material Redesign: Dual-Material 3D Print Strategy
 
-To address the structural issues of the original prototype, the **revised wing design** incorporates **two distinct materials**:
+To overcome structural limitations, the redesigned wing features a **dual-material architecture**:
 
-- **PLA** for the non-morphing sections (e.g., structural core, mounting base)  
-  - Offers increased rigidity and structural integrity  
-  - Reduces overall weight while maintaining strength  
-- **TPU 95A** for the morphing sections (e.g., flaps and flexible surfaces)  
-  - Retains the necessary flexibility for active morphing  
-  - Ensures smooth servo-actuated deformation  
+- **PLA (Rigid)**: For structural cores and non-morphing areas  
+  - Provides strength and weight savings  
+- **TPU 95A (Flexible)**: For flaps and morphing regions  
+  - Enables smooth servo-driven actuation  
 
-This hybrid material approach is aimed at maintaining a balance between **flexibility and load-bearing capability**—critical for practical UAV applications.
+This hybrid setup ensures both **flexibility** for morphing and **stiffness** for structural integrity.
 
 ---
 
 ## ⚠️ Performance Data Disclaimer
 
-All aerodynamic benefits and performance metrics mentioned above (lift gain, drag reduction, stall angle improvements, etc.) are **based on publicly available research and similar bioinspired morphing wing projects** conducted by other researchers or organizations. These values are **not the result of direct testing or simulations of this specific prototype** and are provided as **theoretical benchmarks** for context.
+All aerodynamic performance figures (lift gains, drag reduction, etc.) are based on **peer-reviewed studies** and **existing bioinspired research**. These values are intended as **theoretical benchmarks**. No CFD simulations or wind tunnel tests have been conducted on the current prototype yet.
 
 ---
 
 ## 🚧 Current Status
 
-- ✅ **Initial TPU prototype completed and tested**  
-- ✅ **Dual-material redesign completed (PLA + TPU split architecture)**  
-- ⚠️ **Redesigned bioinspired prototype modeled, not yet printed**  
-- 🧪 **CFD simulations pending** to validate aerodynamic performance (L/D ratio, stall characteristics, drag profile)  
-- 🔩 **Material integration strategy being finalized** for multi-material 3D printing workflow
+- ✅ Initial TPU prototype completed and tested  
+- ✅ Dual-material redesign modeled (PLA + TPU architecture)  
+- ⚠️ Bioinspired prototype **modeled, not yet printed**  
+- 🧪 **CFD simulations pending**  
+- 🔩 Material integration workflow being finalized for **multi-material 3D printing**
+
+---
+
+## 📂 CAD Files & Visual Media
+
+> **Note:** CAD files have not been uploaded yet, as this project is still a **work in progress**.  
+> However, two videos showcasing the wing's mechanism and behavior are available to help visualize the concept.
 
 ---
 
 ## 🚀 Vision
 
-This project aims to contribute toward **next-generation UAV design**, where **adaptive, passive, and bioinspired morphing mechanisms** can enhance flight performance without relying on complex actuation systems. The goal is to enable lighter, more efficient, and more agile UAVs suitable for both civilian and defense applications.
+This morphing wing project aims to push forward the development of **adaptive**, **passive**, and **bioinspired UAV designs** that improve performance without overcomplicating actuation systems.
+
+The long-term goal is to enable **lighter, more efficient, and agile UAVs** for both **civilian** and **defense** applications.
 
 ---
-
