@@ -1,5 +1,3 @@
-# Biomimetic-Morphing-Wing-for-Enhanced-UAV-Performance
-
 # 🦅 Morphing Wing Prototype — Bioinspired Adaptive UAV Wing Design
 
 This project explores the design, prototyping, and refinement of a **morphing UAV wing** inspired by **biological systems and aerodynamic optimization principles**. The wing was designed to perform two key types of morphing:
@@ -40,16 +38,42 @@ The wing surface was textured with **micro-dimples**, mimicking the boundary lay
 
 ---
 
+## 🧪 Material Redesign: Dual-Material 3D Print Strategy
+
+To address the structural issues of the original prototype, the **revised wing design** incorporates **two distinct materials**:
+
+- **PLA** for the non-morphing sections (e.g., structural core, mounting base)  
+  - Offers increased rigidity and structural integrity  
+  - Reduces overall weight while maintaining strength  
+- **TPU 95A** for the morphing sections (e.g., flaps and flexible surfaces)  
+  - Retains the necessary flexibility for active morphing  
+  - Ensures smooth servo-actuated deformation  
+
+This hybrid material approach is aimed at maintaining a balance between **flexibility and load-bearing capability**—critical for practical UAV applications.
+
+---
+
+## ⚠️ Performance Data Disclaimer
+
+All aerodynamic benefits and performance metrics mentioned above (lift gain, drag reduction, stall angle improvements, etc.) are **based on publicly available research and similar bioinspired morphing wing projects** conducted by other researchers or organizations. These values are **not the result of direct testing or simulations of this specific prototype** and are provided as **theoretical benchmarks** for context.
+
+---
+
 ## 🚧 Current Status
 
 - ✅ **Initial TPU prototype completed and tested**  
+- ✅ **Dual-material redesign completed (PLA + TPU split architecture)**  
 - ⚠️ **Redesigned bioinspired prototype modeled, not yet printed**  
 - 🧪 **CFD simulations pending** to validate aerodynamic performance (L/D ratio, stall characteristics, drag profile)  
-- 🔩 **Hybrid material strategy under consideration** to balance flexibility with structural integrity
+- 🔩 **Material integration strategy being finalized** for multi-material 3D printing workflow
 
 ---
 
 ## 🚀 Vision
 
 This project aims to contribute toward **next-generation UAV design**, where **adaptive, passive, and bioinspired morphing mechanisms** can enhance flight performance without relying on complex actuation systems. The goal is to enable lighter, more efficient, and more agile UAVs suitable for both civilian and defense applications.
+
+---
+
+## 📁 Folder Structure
 
